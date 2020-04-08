@@ -10067,3 +10067,27 @@ iframe {
   .loader span {
     color: white;
     fill: white; }
+
+.login-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .login-container .login {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #fff; }
+    .login-container .login button {
+      margin: 15px 0 0 0;
+      align-self: flex-end; }
+
+.login-error {
+  color: red; }
